@@ -1,0 +1,68 @@
+/** @format */
+
+body {
+	font-family: Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	padding: 20px;
+}
+
+.todo-container {
+	text-align: center;
+	width: 100%;
+	max-width: 600px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 0;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px 0;
+	background-color: #f4f4f4;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+	background-color: #5c33ff;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #4a28cc;
+}
+
+input[type='text'] {
+	width: calc(100% - 24px);
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.completed {
+	text-decoration: line-through; /* Risca a tarefa */
+	color: #888; 
+}
+
+.button-group {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
